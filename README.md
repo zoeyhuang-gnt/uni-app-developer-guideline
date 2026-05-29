@@ -67,7 +67,7 @@ my-uni-app/
 
 ---
 
-## 🛠️ 3. 核心設定 (Global & Page Settings)
+##  3. 核心設定 (Global & Page Settings)
 
 ### 3.1 全域設定 (pages.json -> globalStyle)
 定義所有頁面的預設外觀：
