@@ -182,7 +182,7 @@ observer.relativeToViewport().observe('.target-node', (res) => {
 
 ##  7. 開發最佳實務 (Best Practices)
 
-1.  **分包加載 (Subpackaging)**：當專案體積超過 2MB 時，務必在 `pages.json` 中配置 `subPackages`，否則無法發佈微信小程序。
+1.  **分包加載 (Subpackaging)**：當專案體積超過 2MB 時，務必在 `pages.json` 中配置 `subPackages`，否則無法發佈小程序。
 2.  **避免 `setData` 過於頻繁**：雖然 uni-app 自動處理數據同步，但過多的大對象更新會導致頁面卡頓。
 3.  **定義全域變量**：建議使用 `Pinia` 管理用戶資訊，或將常用的 API 工具掛載至 `uni.$api`。
 4.  **H5 跨域處理**：在 `vite.config.ts` 中配置 `server.proxy` 解決開發環境的跨域問題。
